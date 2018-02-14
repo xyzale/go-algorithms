@@ -37,13 +37,3 @@ func (L *List) Traverse() {
 		i = i.next
 	}
 }
-
-func main() {
-	myList := List{}
-	myList.Insert(1)
-	myList.Insert(2)
-	myList.Insert(3)
-	myList.Insert(4)
-
-	myList.Traverse()
-}
